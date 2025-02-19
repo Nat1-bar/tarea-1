@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.nivel-1 { background-color: gray; padding: 10px; }
+.nivel-2 { background-color: yellow; padding: 10px; }
+.nivel-3 { background-color: orange; padding: 10px; }
+.nivel-4 { background-color: salmon; padding: 10px; }
+.nivel-5 { background-color: rgb(26, 189, 218); padding: 10px; }
+.nivel-6 { background-color: peru; padding: 10px; }
+.nivel-7 { background-color: white; padding: 10px; }
+
+
+.caja-texto p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
